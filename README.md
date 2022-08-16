@@ -18,6 +18,9 @@ int getPivot(vector<int>& arr, int n){
     return s;
 }
 
+    
+    
+    
 int binarysearch(vector<int>& arr, int s, int e, int key){
     int start = s;
     int end = e;
@@ -38,6 +41,8 @@ int binarysearch(vector<int>& arr, int s, int e, int key){
     }
     return -1;
 }
+    
+ 
     
     
 int findPosition(vector<int>& arr, int n, int k)
