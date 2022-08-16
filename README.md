@@ -40,7 +40,7 @@ int binarysearch(vector<int>& arr, int s, int e, int key){
 }
 int findPosition(vector<int>& arr, int n, int k)
 {
-    // Write your code here.
+    
     // Return the position of K in ARR else return -1.
     int pivot = getPivot(arr, n);
     if(k >= arr[pivot] && k <= arr[n-1]){
